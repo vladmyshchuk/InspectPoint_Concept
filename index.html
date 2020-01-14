@@ -47,20 +47,20 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#">HOME</a>
+            <li class="nav-item active">
+              <a class="nav-link" href="#top">HOME</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">FEATURES</a>
+              <a class="nav-link" href="#features">FEATURES</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">PRICING</a>
+              <a class="nav-link" href="#about-us">ABOUT US</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">CONTACT</a>
+              <a class="nav-link" href="#testimonials">TESTIMONIALS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">BLOG</a>
+              <a class="nav-link" href="#footer">CONTACT</a>
             </li>
           </ul>
         </div>
@@ -101,7 +101,7 @@
 
     <section id="features">
       <div class="container text-center">
-        <h1 class="title">WHAT WE DO?</h1>
+        <h1 class="title">WHAT WE DO</h1>
         <div class="row text-center">
           <div class="col-md-4 features">
             <img src="#" alt="features image" class="features-img" />
@@ -141,7 +141,7 @@
     <!------------About Us-------->
     <section id="about-us">
       <div class="container">
-        <h1 class="title text-center">WHY CHOOSE US ?</h1>
+        <h1 class="title text-center">WHY US</h1>
         <div class="row">
           <div class="col-md-6 about-us">
             <p class="about-title">Why we're Different</p>
@@ -165,7 +165,7 @@
     <!-----------Testimonials------->
     <section id="testimonials">
       <div class="container">
-        <h1 class="title text-center">WHAT CLIENTS SAY</h1>
+        <h1 class="title text-center">OUR CLIENTS</h1>
         <div class="row offset-1">
           <div class="col-md-5 testimonials">
             <p>
@@ -204,16 +204,16 @@
         <p>FIND US ON SOCIAL MEDIA</p>
         <div class="social-icons">
           <a href="#"
-            ><img src="/images/facebook-icon.png" alt="facebook icon"/></a
+            ><img src="images/facebook-icon.png" alt="facebook icon"/></a
           ><a href="#"
-            ><img src="/images/youtube-icon.png" alt="youtube icon"/></a
+            ><img src="images/youtube-icon.png" alt="youtube icon"/></a
           ><a href="#"
-            ><img src="/images/linkedin-icon.png" alt="linkedin icon"/></a
+            ><img src="images/linkedin-icon.png" alt="linkedin icon"/></a
           ><a href="#"
-            ><img src="/images/instagram-icon.png" alt="instagram icon"
+            ><img src="images/instagram-icon.png" alt="instagram icon"
           /></a>
           <a href="#"
-            ><img src="/images/twitter-icon.png" alt="twitter icon"
+            ><img src="images/twitter-icon.png" alt="twitter icon"
           /></a>
         </div>
       </div>
@@ -221,13 +221,46 @@
 
     <!------------Footer Section-->
     <section id="footer">
-      <img src="/images/wave2.png" class="footer-img" alt="wave image" />
-      <section class="wave">
-        <div class="wave wave1"></div>
-        <div class="wave wave2"></div>
-        <div class="wave wave3"></div>
-        <div class="wave wave4"></div>
-      </section>
+      <img src="/images/wave2.png" alt="wave2 image" class="footer-img" />
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 footer-box">
+            <img src="images/logo.png" alt="logo" />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+              illum pariatur fugiat deserunt odio, maiores velit reprehenderit
+              officia.Press the icon to get notifications.
+            </p>
+          </div>
+          <div class="col-md-4 footer-box">
+            <p><b>CONTACT US</b></p>
+            <p>
+              <i class="fa fa-map-marker" aria-hidden="true"></i> 24 4th St
+              Troy, NY
+            </p>
+            <p><i class="fa fa-phone" aria-hidden="true"></i> 1-888-287-1471</p>
+            <p>
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+              sales@inspectpoint.com
+            </p>
+          </div>
+
+          <div class="col-md-4 footer-box">
+            <p><b>SUBSCRIBE NEWSLETTER</b></p>
+            <input type="email" class="form-control" placeholder="Your Email" />
+            <button type="button" class="btn btn-primary">Subscribe</button>
+          </div>
+        </div>
+        <hr />
+        <p class="copyright">Website Developed by Vlad Myshchuk</p>
+      </div>
     </section>
+
+    <!----------Smooth Scroll------------->
+
+    <script src="smooth-scroll.js"></script>
+    <script>
+      var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
   </body>
 </html>

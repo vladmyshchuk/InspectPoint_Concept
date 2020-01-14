@@ -7,6 +7,10 @@ body {
   font-family: sans-serif;
 }
 
+.title {
+  font-size: 2.8rem;
+}
+
 #nav-bar {
   position: sticky;
   top: 0;
@@ -19,9 +23,9 @@ body {
 }
 
 .navbar-brand img {
-  height: 90px;
-  padding-left: 20px;
-  padding-top: 10px;
+  height: 60px;
+  padding-left: 5px;
+  padding-top: 0px;
 }
 
 .navbar-nav li {
@@ -52,12 +56,12 @@ body {
   padding-top: 5%;
   position: relative;
   width: 100%;
-  height: 90vh;
+  height: 100vh;
   overflow: hidden;
 }
 
 .promo-title {
-  font-size: 40px;
+  font-size: 1.4rem;
   font-weight: 600;
   margin-top: 20px;
 }
@@ -72,6 +76,10 @@ body {
   text-decoration: none;
 }
 
+.img-fluid {
+  width: 80%;
+  height: auto;
+}
 /*--------Waves Section---------*/
 
 section .wave {
@@ -82,6 +90,7 @@ section .wave {
   height: 100px;
   background: url(../images/wave.png);
   background-size: 1000px 100px;
+  z-index: 9;
 }
 
 section .wave.wave1 {
@@ -135,11 +144,11 @@ section .wave.wave4 {
 #features {
   padding: 80px 0;
 }
-
 .features-img {
   width: 100px;
   margin-top: 20px;
 }
+
 .features {
   padding: 20px;
 }
@@ -188,7 +197,7 @@ section .wave.wave4 {
 }
 
 .about-title {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 600;
   margin-top: 8%;
 }
@@ -202,7 +211,7 @@ section .wave.wave4 {
 /*----------Testimonials Section--------*/
 
 #testimonials {
-  margin: 100px 0;
+  padding: 100px 0;
 }
 
 .testimonials {
@@ -230,7 +239,7 @@ section .wave.wave4 {
 }
 
 #social-media p {
-  font-size: 36px;
+  font-size: 1rem;
   font-weight: 600;
   margin-bottom: 30px;
 }
@@ -241,7 +250,7 @@ section .wave.wave4 {
 }
 
 .social-icons a:hover img {
-  transform: translateY(-30px);
+  transform: translateY(-10px);
 }
 
 /*----------Footer Section-------------*/
@@ -253,4 +262,58 @@ section .wave.wave4 {
 
 .footer-img {
   width: 100%;
+}
+
+.footer-box {
+  padding: 20px;
+}
+
+.footer-box img {
+  width: 60px;
+  margin-bottom: 20px;
+}
+
+.footer-box .fa {
+  margin-right: 8px;
+  font-size: 25px;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  padding-top: 7px;
+  border-radius: 2px;
+  background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+.footer-box .form-control {
+  box-shadow: none !important;
+  border: none;
+  border-radius: 0;
+  margin-top: 25px;
+  max-width: 250px;
+}
+
+.footer-box .btn-primary {
+  box-shadow: none !important;
+  border: none;
+  border-radius: 0;
+  margin-top: 30px;
+  background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+hr {
+  background-color: #fff;
+}
+
+.copyright {
+  margin-bottom: 0;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+/*--------------Media Queries------------*/
+
+@media screen and (max-width: 768px) {
+   {
+    font-size: 10px;
+  }
 }
