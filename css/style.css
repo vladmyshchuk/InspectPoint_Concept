@@ -23,9 +23,8 @@ body {
 }
 
 .navbar-brand img {
-  height: 60px;
-  padding-left: 5px;
-  padding-top: 0px;
+  height: 40px;
+  padding-left: 20px;
 }
 
 .navbar-nav li {
@@ -77,8 +76,8 @@ body {
 }
 
 .img-fluid {
-  width: 80%;
   height: auto;
+  max-width: 100%;
 }
 /*--------Waves Section---------*/
 
@@ -144,9 +143,11 @@ section .wave.wave4 {
 #features {
   padding: 80px 0;
 }
+
 .features-img {
-  width: 100px;
+  max-width: 30%;
   margin-top: 20px;
+  
 }
 
 .features {
@@ -203,9 +204,11 @@ section .wave.wave4 {
 }
 #about-us ul li {
   margin: 10px 0;
-}
+  
+l}
 #about-us ul {
   margin-left: 20px;
+  list-style-image: url(../images/checkmark.png);
 }
 
 /*----------Testimonials Section--------*/
@@ -309,6 +312,8 @@ hr {
   padding-bottom: 20px;
   text-align: center;
 }
+
+
 
 /*--------------Media Queries------------*/
 
