@@ -64,11 +64,16 @@ body {
   font-weight: 600;
   margin-top: 20px;
 }
-
+.hide {
+      font-size: 150%;
+      cursor: pointer;
+      text-align: center;
+    }
 .play-btn {
   width: 45px;
   margin: 20px;
 }
+ 
 
 #banner a {
   color: #fff;

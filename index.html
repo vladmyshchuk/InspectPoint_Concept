@@ -93,8 +93,12 @@
               contracts, and grow your inspection business to new heights.
             </p>
             <a href="#"
-              ><img src="images/play.png" class="play-btn" />Play Video</a
-            >
+              ><img
+                src="images/play.png"
+                class="play-btn hide"
+                onclick="play1()"/>Play Video
+              <div id="youtube-frame"></div
+            ></a>
           </div>
           <div class="col-md-6">
             <img src="images/home2.svg" alt="Home image" class="img-fluid" />
@@ -218,14 +222,6 @@
     <!-----------------Social Media Section------------>
     <section id="social-media">
       <div class="container text-center">
-        <iframe
-          width="320"
-          height="215"
-          src="https://www.youtube.com/embed/hutSc8WQ5tc"
-          frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
         <p>FIND US ON SOCIAL MEDIA</p>
         <div class="social-icons">
           <a href="https://www.facebook.com/InspectPoint/" target="_blank"
@@ -303,5 +299,12 @@
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
     ></script>
+    <script>
+      function play1() {
+        var frame = document.getElementById("youtube-frame");
+        frame.innerHTML +=
+          "<iframe width='340' height='240' src='https://www.youtube.com/embed/hutSc8WQ5tc'  allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>";
+      }
+    </script>
   </body>
 </html>
